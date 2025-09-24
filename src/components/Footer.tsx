@@ -36,9 +36,10 @@ const Footer = () => {
   ];
 
   const contactInfo = {
-    phones: ["+91 9066944070", "+91 9985142346"],
+    phones: ["+91 90669 44070", "+91 99851 42346"],
     emails: ["chayaprinttech.2017@gmail.com", "sales@chayaprinttech.in"],
-    address: "Hyderabad, India",
+    address:
+      "1/2C, Eshwar Temple Road, Kanakapura Main Road, Doddakallasandra, Bangalore-560 062",
   };
 
   const socialLinks = [
@@ -162,9 +163,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-white/10 mt-16 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center text-gray-300 text-sm">
-            <p>
-              © {currentYear} Chayaprinttech (CPT). All Rights Reserved.
-            </p>
+            <p>© {currentYear} Chayaprinttech (CPT). All Rights Reserved.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <Link
                 href="/privacy"
