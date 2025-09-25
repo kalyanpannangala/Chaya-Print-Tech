@@ -136,7 +136,7 @@ export default function Contact() {
                     <div className="font-semibold text-white">
                       Call Directly
                     </div>
-                    <div className="text-blue-100">+91 90669 44070</div>
+                    <div className="text-blue-100">+91 98866 77855</div>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -267,7 +267,7 @@ export default function Contact() {
                         value={formData.phone}
                         onChange={handleChange}
                         className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-[#04499C] focus:border-[#04499C] transition-all duration-200 hover:border-[#F4A405]"
-                        placeholder="+91 90669 44070"
+                        placeholder="+91 "
                       />
                     </div>
 
@@ -407,17 +407,12 @@ export default function Contact() {
                           Call Us Directly
                         </h4>
                         <a
-                          href="tel:+919066944070"
+                          href="tel:+919886677855"
                           className="block text-blue-100 hover:text-[#F4A405] transition-colors text-lg font-medium"
                         >
-                          +91 90669 44070
+                          +91 98866 77855
                         </a>
-                        <a
-                          href="tel:+919985142346"
-                          className="block text-blue-100 hover:text-[#F4A405] transition-colors text-lg font-medium"
-                        >
-                          +91 99851 42346
-                        </a>
+                        
                         <p className="text-blue-200 text-sm mt-2">
                           Mon-Sat: 9:00 AM - 6:00 PM
                         </p>
@@ -436,13 +431,13 @@ export default function Contact() {
                           href="mailto:chayaprinttech.2017@gmail.com"
                           className="block text-blue-100 hover:text-[#F4A405] transition-colors font-medium"
                         >
-                          chayaprinttech.2017@gmail.com
+                        
                         </a>
                         <a
                           href="mailto:sales@chayaprinttech.in"
                           className="block text-blue-100 hover:text-[#F4A405] transition-colors font-medium"
                         >
-                          sales@chayaprinttech.in
+                          sales@chayaprinttech.com
                         </a>
                       </div>
                     </div>

@@ -10,11 +10,16 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "CPT - Chayaprinttech | Premium Label & Sticker Solutions",
+  title: "Chaya Print Tech | Premium Label & Sticker Solutions",
   description:
     "Leading manufacturer of high-quality labels, stickers, and printing solutions. Serving Healthcare, Manufacturing, Retail, Automotive and more industries with innovative products.",
   keywords:
     "labels, stickers, printing, polycarbonate labels, adhesive labels, automotive labels, healthcare labels, manufacturing",
+  icons: {
+    icon: "/CPT.png",
+    shortcut: "/CPT.png",
+    apple: "/CPT.png",
+  },
 };
 
 export default function RootLayout({

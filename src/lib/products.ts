@@ -20,7 +20,7 @@ export const industrialProducts: ProductRecord[] = [
     slug: "polycarbonate-labels-pc-stickers",
     name: "Polycarbonate Labels (PC Stickers)",
     category: "Industrial",
-    short: "Durable, chemical & abrasion‑resistant identification labels.",
+    short: "Durable, chemical & abrasion‑resistant identifying labels.",
     description:
       "Engineered polycarbonate overlays and label solutions offering outstanding durability, clarity and resistance to chemicals, abrasion and UV exposure. Ideal for demanding industrial and electronics environments where longevity and aesthetics both matter.",
     features: [

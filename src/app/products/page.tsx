@@ -53,7 +53,7 @@ export default function ProductsPage() {
           <div className="text-center mb-12">
             <div>
               <h1 className="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight text-white">
-                Professional <span className="text-[#F4A405]">Products</span>
+                Our <span className="text-[#F4A405]">Products</span>
               </h1>
               <p className="text-xl md:text-2xl text-blue-100 max-w-4xl mx-auto leading-relaxed">
                 Comprehensive range of high-quality labels and stickers

@@ -76,7 +76,7 @@ const Navbar = () => {
               className="object-contain hover:scale-105 transition-transform duration-300"
             />
             <span className="font-bold text-xl text-[#04499C]">
-              Chayaprinttech
+              Chaya Print Tech
             </span>
           </Link>
 
@@ -113,14 +113,14 @@ const Navbar = () => {
               onHoverEnd={() => setIsProductsOpen(false)}
               className="relative"
             >
-              <button className="text-gray-700 hover:text-[#04499C] font-medium flex items-center gap-1 text-base group">
+              <Link href="/products" className="text-gray-700 hover:text-[#04499C] font-medium flex items-center gap-1 text-base group">
                 <span>Products</span>
                 <ChevronDown
                   className={`w-4 h-4 transition-transform duration-300 ${
                     isProductsOpen ? "rotate-180 text-[#04499C]" : ""
                   }`}
                 />
-              </button>
+              </Link>
 
               {/* Dropdown */}
               <AnimatePresence>

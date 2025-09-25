@@ -132,7 +132,7 @@ export default function About() {
                 <div className="flex items-center mb-4">
                   <User className="w-5 h-5 text-[#04499C] mr-2" />
                   <span className="font-semibold text-[#04499C]">
-                    Proprietor: Charan Sri Ram
+                    Proprietor : Charan Sriram
                   </span>
                 </div>
                 <div className="flex items-center">
@@ -461,10 +461,10 @@ export default function About() {
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold text-[#04499C]">
-                      Charan Sri Ram
+                      Charan Sriram
                     </h3>
                     <p className="text-[#F4A405] font-semibold text-lg">
-                      Proprietor & Mentor
+                      Proprietor & Business Head
                     </p>
                   </div>
                 </div>

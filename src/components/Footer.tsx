@@ -36,8 +36,8 @@ const Footer = () => {
   ];
 
   const contactInfo = {
-    phones: ["+91 90669 44070", "+91 99851 42346"],
-    emails: ["chayaprinttech.2017@gmail.com", "sales@chayaprinttech.in"],
+    phones: ["+919886677855"],
+    emails: ["chayaprinttech.2017@gmail.com", "sales@chayaprinttech.com"],
     address:
       "1/2C, Eshwar Temple Road, Kanakapura Main Road, Doddakallasandra, Bangalore-560 062",
   };

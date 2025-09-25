@@ -24,7 +24,7 @@ export default function Home() {
     {
       title: "Industrial Manufacturing",
       subtitle: "Mission-Critical Labeling Solutions",
-      image: "/Commercial/business_cards.jpg",
+      image: "/Industrial.webp",
       description:
         "Engineered for harsh environments, regulatory compliance, and operational efficiency.",
       benefits: [
@@ -202,7 +202,7 @@ export default function Home() {
               </span>
               <span className="flex items-center">
                 <Mail className="w-4 h-4 mr-1" />
-                quotes@cpt.com
+                sales@chayaprinttech.com
               </span>
             </div>
           </div>
@@ -210,176 +210,194 @@ export default function Home() {
       </div>
 
       {/* Professional Hero Section */}
-      <section className="relative bg-gray-50 overflow-hidden">
-        <div className="max-w-7xl mx-auto">
-          <div className="relative z-10 pb-8 bg-gray-50 sm:pb-16 md:pb-20 lg:w-full lg:pb-28 xl:pb-32">
-            <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-              <div className="lg:grid lg:grid-cols-12 lg:gap-8">
-                <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-7 lg:text-left lg:mx-0">
-                  <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.6 }}
-                  >
-                    <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl lg:text-6xl">
-                      <span className="block">Professional Labeling</span>
-                      <span className="block text-[#04499C]">
-                        Solutions for Business
-                      </span>
-                    </h1>
+<section className="relative bg-gray-50 overflow-hidden">
+  {/* Dynamic Animated Background */}
+  <div className="absolute inset-0">
+    {/* Animated Gradient Mesh */}
+    <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-indigo-50">
+      <div className="absolute top-0 left-0 w-full h-full opacity-40">
+        <div className="absolute top-20 left-10 w-72 h-72 bg-gradient-to-r from-[#04499C] to-[#3B82F6] rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-pulse"></div>
+        <div className="absolute top-60 right-20 w-96 h-96 bg-gradient-to-r from-[#F4A405] to-[#F59E0B] rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-bounce delay-1000"></div>
+        <div className="absolute bottom-20 left-1/3 w-80 h-80 bg-gradient-to-r from-emerald-400 to-cyan-400 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-pulse delay-500"></div>
+      </div>
+    </div>
+    
+    {/* Subtle Grid Pattern */}
+    <div className="absolute inset-0 opacity-[0.02]" style={{
+      backgroundImage: `linear-gradient(#04499C 1px, transparent 1px), linear-gradient(90deg, #04499C 1px, transparent 1px)`,
+      backgroundSize: '50px 50px'
+    }}></div>
+  </div>
 
-                    <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                      Trusted by Fortune 500 companies for mission-critical
-                      industrial labeling and premium commercial print
-                      materials.
-                      <strong className="text-gray-900">
-                        {" "}
-                        Custom engineered. Quality assured. On-time delivery.
-                      </strong>
-                    </p>
+  <div className="max-w-7xl mx-auto">
+    <div className="relative z-10 pb-8 bg-transparent sm:pb-16 md:pb-20 lg:w-full lg:pb-28 xl:pb-32">
+      <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+        <div className="lg:grid lg:grid-cols-12 lg:gap-8">
+          <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-7 lg:text-left lg:mx-0">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+            >
+              <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl lg:text-6xl">
+                <span className="block">Professional Labeling</span>
+                <span className="block text-[#04499C]">
+                  Solutions for Business
+                </span>
+              </h1>
 
-                    {/* Key Benefits */}
-                    <div className="mt-8 space-y-3">
-                      {[
-                        "Same-day technical consultation & quotes",
-                        "Custom engineering for unique requirements",
-                        "Regulatory compliance expertise (OSHA, FDA, UL)",
-                        "24-48 hour standard turnaround times",
-                      ].map((benefit, index) => (
-                        <div key={index} className="flex items-start">
-                          <CheckCircle className="w-5 h-5 text-[#04499C] mt-0.5 mr-3 flex-shrink-0" />
-                          <span className="text-gray-700 font-medium">
-                            {benefit}
-                          </span>
-                        </div>
-                      ))}
-                    </div>
+              <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
+                Trusted by Fortune 500 companies for mission-critical
+                industrial labeling and premium commercial print
+                materials.
+                <strong className="text-gray-900">
+                  {" "}
+                  Custom engineered. Quality assured. On-time delivery.
+                </strong>
+              </p>
 
-                    <div className="mt-10 sm:flex sm:justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
-                      <Link
-                        href="/contact"
-                        className="w-full sm:w-auto flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#04499C] hover:bg-[#033875] md:py-4 md:text-lg md:px-10 transition-colors duration-200 shadow-lg"
-                      >
-                        Request Custom Quote
-                        <ArrowRight className="ml-2 w-5 h-5" />
-                      </Link>
-                      <Link
-                        href="/products"
-                        className="w-full sm:w-auto flex items-center justify-center px-8 py-3 border border-[#04499C] text-base font-medium rounded-md text-[#04499C] bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10 transition-colors duration-200"
-                      >
-                        <FileText className="mr-2 w-5 h-5" />
-                        Browse Catalog
-                      </Link>
-                    </div>
-                  </motion.div>
-                </div>
-
-                <div className="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-5 lg:flex lg:items-center">
-                  <motion.div
-                    initial={{ opacity: 0, x: 20 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.8, delay: 0.2 }}
-                    className="relative"
-                  >
-                    {/* Product Showcase Grid */}
-                    <div className="grid grid-cols-2 gap-4 max-w-md mx-auto">
-                      <motion.div
-                        initial={{ opacity: 0, scale: 0.8 }}
-                        animate={{ opacity: 1, scale: 1 }}
-                        transition={{ duration: 0.6, delay: 0.3 }}
-                        className="relative h-32 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 bg-[#04499C]"
-                      >
-                        <Image
-                          src="/Commercial/stickers.jpg"
-                          alt="Stickers and Labels"
-                          width={200}
-                          height={128}
-                          className="w-full h-full object-cover"
-                          unoptimized
-                        />
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-                        <div className="absolute bottom-2 left-2 text-white text-xs font-semibold">
-                          Stickers
-                        </div>
-                      </motion.div>
-
-                      <motion.div
-                        initial={{ opacity: 0, scale: 0.8 }}
-                        animate={{ opacity: 1, scale: 1 }}
-                        transition={{ duration: 0.6, delay: 0.4 }}
-                        className="relative h-32 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 bg-[#04499C]"
-                      >
-                        <Image
-                          src="/Commercial/business_cards.jpg"
-                          alt="Business Cards"
-                          width={200}
-                          height={128}
-                          className="w-full h-full object-cover"
-                          unoptimized
-                        />
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-                        <div className="absolute bottom-2 left-2 text-white text-xs font-semibold">
-                          Business Cards
-                        </div>
-                      </motion.div>
-
-                      <motion.div
-                        initial={{ opacity: 0, scale: 0.8 }}
-                        animate={{ opacity: 1, scale: 1 }}
-                        transition={{ duration: 0.6, delay: 0.5 }}
-                        className="relative h-32 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 bg-[#04499C]"
-                      >
-                        <Image
-                          src="/Commercial/banners.jpg"
-                          alt="Banners"
-                          width={200}
-                          height={128}
-                          className="w-full h-full object-cover"
-                          unoptimized
-                        />
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-                        <div className="absolute bottom-2 left-2 text-white text-xs font-semibold">
-                          Banners
-                        </div>
-                      </motion.div>
-
-                      <motion.div
-                        initial={{ opacity: 0, scale: 0.8 }}
-                        animate={{ opacity: 1, scale: 1 }}
-                        transition={{ duration: 0.6, delay: 0.6 }}
-                        className="relative h-32 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 bg-[#04499C]"
-                      >
-                        <Image
-                          src="/Commercial/brochures_big.jpg"
-                          alt="Brochures"
-                          width={200}
-                          height={128}
-                          className="w-full h-full object-cover"
-                          unoptimized
-                        />
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-                        <div className="absolute bottom-2 left-2 text-white text-xs font-semibold">
-                          Brochures
-                        </div>
-                      </motion.div>
-                    </div>
-
-                    {/* Floating Badge */}
-                    <motion.div
-                      initial={{ opacity: 0, y: 20 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{ duration: 0.8, delay: 0.7 }}
-                      className="absolute -top-4 -right-4 bg-[#F4A405] text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg"
-                    >
-                      30+ Products
-                    </motion.div>
-                  </motion.div>
-                </div>
+              {/* Key Benefits */}
+              <div className="mt-8 space-y-3">
+                {[
+                  "Same-day technical consultation & quotes",
+                  "Custom engineering for unique requirements",
+                  "Regulatory compliance expertise (OSHA, FDA, UL)",
+                  "24-48 hour standard turnaround times",
+                ].map((benefit, index) => (
+                  <div key={index} className="flex items-start">
+                    <CheckCircle className="w-5 h-5 text-[#04499C] mt-0.5 mr-3 flex-shrink-0" />
+                    <span className="text-gray-700 font-medium">
+                      {benefit}
+                    </span>
+                  </div>
+                ))}
               </div>
-            </main>
+
+              <div className="mt-10 sm:flex sm:justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
+                <Link
+                  href="/contact"
+                  className="w-full sm:w-auto flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#04499C] hover:bg-[#033875] md:py-4 md:text-lg md:px-10 transition-colors duration-200 shadow-lg"
+                >
+                  Request Custom Quote
+                  <ArrowRight className="ml-2 w-5 h-5" />
+                </Link>
+                <Link
+                  href="/products"
+                  className="w-full sm:w-auto flex items-center justify-center px-8 py-3 border border-[#04499C] text-base font-medium rounded-md text-[#04499C] bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10 transition-colors duration-200"
+                >
+                  <FileText className="mr-2 w-5 h-5" />
+                  Browse Catalog
+                </Link>
+              </div>
+            </motion.div>
+          </div>
+
+          <div className="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-5 lg:flex lg:items-center">
+            <motion.div
+              initial={{ opacity: 0, x: 20 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              className="relative"
+            >
+              {/* Product Showcase Grid */}
+              <div className="grid grid-cols-2 gap-4 max-w-md mx-auto">
+                <motion.div
+                  initial={{ opacity: 0, scale: 0.8 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 0.6, delay: 0.3 }}
+                  className="relative h-32 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 bg-[#04499C]"
+                >
+                  <Image
+                    src="/Commercial/stickers.jpg"
+                    alt="Stickers and Labels"
+                    width={200}
+                    height={128}
+                    className="w-full h-full object-cover"
+                    unoptimized
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                  <div className="absolute bottom-2 left-2 text-white text-xs font-semibold">
+                    Stickers
+                  </div>
+                </motion.div>
+
+                <motion.div
+                  initial={{ opacity: 0, scale: 0.8 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 0.6, delay: 0.4 }}
+                  className="relative h-32 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 bg-[#04499C]"
+                >
+                  <Image
+                    src="/Commercial/business_cards.jpg"
+                    alt="Business Cards"
+                    width={200}
+                    height={128}
+                    className="w-full h-full object-cover"
+                    unoptimized
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                  <div className="absolute bottom-2 left-2 text-white text-xs font-semibold">
+                    Business Cards
+                  </div>
+                </motion.div>
+
+                <motion.div
+                  initial={{ opacity: 0, scale: 0.8 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 0.6, delay: 0.5 }}
+                  className="relative h-32 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 bg-[#04499C]"
+                >
+                  <Image
+                    src="/Commercial/banners.jpg"
+                    alt="Banners"
+                    width={200}
+                    height={128}
+                    className="w-full h-full object-cover"
+                    unoptimized
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                  <div className="absolute bottom-2 left-2 text-white text-xs font-semibold">
+                    Banners
+                  </div>
+                </motion.div>
+
+                <motion.div
+                  initial={{ opacity: 0, scale: 0.8 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 0.6, delay: 0.6 }}
+                  className="relative h-32 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 bg-[#04499C]"
+                >
+                  <Image
+                    src="/Commercial/brochures_big.jpg"
+                    alt="Brochures"
+                    width={200}
+                    height={128}
+                    className="w-full h-full object-cover"
+                    unoptimized
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                  <div className="absolute bottom-2 left-2 text-white text-xs font-semibold">
+                    Brochures
+                  </div>
+                </motion.div>
+              </div>
+
+              {/* Floating Badge */}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.7 }}
+                className="absolute -top-4 -right-4 bg-[#F4A405] text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg"
+              >
+                30+ Products
+              </motion.div>
+            </motion.div>
           </div>
         </div>
-      </section>
+      </main>
+    </div>
+  </div>
+</section>
 
       {/* Trust Metrics */}
       <section className="py-12 bg-white border-y border-gray-200">
