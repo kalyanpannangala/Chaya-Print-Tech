@@ -9,10 +9,7 @@ import {
   MapPin,
   Clock,
   Send,
-  User,
-  Building2,
   MessageSquare,
-  CheckCircle,
   ArrowRight,
   Star,
   Award,
@@ -119,7 +116,7 @@ export default function Contact() {
                 <span className="text-[#F4A405]">Contact</span> Chaya Print Tech
               </h1>
               <p className="text-xl md:text-2xl text-blue-100 leading-relaxed">
-                Whether you're looking for a{" "}
+                Whether you&apos;re looking for a{" "}
                 <strong className="text-white">machine</strong>, have a{" "}
                 <strong className="text-white">support question</strong> or a{" "}
                 <strong className="text-white">business query</strong> - get in

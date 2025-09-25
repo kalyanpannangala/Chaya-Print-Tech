@@ -45,7 +45,7 @@ export default function About() {
                 About <span className="text-[#F4A405]">Chaya Print Tech</span>
               </h1>
               <p className="text-xl md:text-2xl text-blue-100 leading-relaxed">
-                Whether you're looking for a{" "}
+                Whether you&apos;re looking for a{" "}
                 <strong className="text-white">machine</strong>, have a{" "}
                 <strong className="text-white">support question</strong> or a{" "}
                 <strong className="text-white">business query</strong> - get in
@@ -145,7 +145,7 @@ export default function About() {
 
               <p className="text-xl text-gray-700 leading-relaxed">
                 We{" "}
-                <strong className="text-[#04499C]">"Chaya Print Tech"</strong>{" "}
+                <strong className="text-[#04499C]">&quot;Chaya Print Tech&quot;</strong>{" "}
                 are a Sole Proprietorship based company, engaged as the{" "}
                 <strong className="text-[#04499C]">manufacturer</strong> of SS
                 and Aluminum Name Plate, PC Labels, PVC Sticker, Blank Labels,
@@ -159,7 +159,7 @@ export default function About() {
                 we are also engaged in rendering Printing Service and Acrylic
                 Printing Service. Under the supervision of our mentor{" "}
                 <strong className="text-[#04499C]">
-                  "Charan Sri Ram (Proprietor)"
+                  &quot;Charan Sri Ram (Proprietor)&quot;
                 </strong>
                 we have gained name and fame in the business.
               </p>
@@ -229,8 +229,8 @@ export default function About() {
               </div>
               <div className="bg-[#F4A405]/10 p-6 rounded-xl mb-6">
                 <p className="text-lg font-semibold text-[#04499C] leading-relaxed">
-                  "To be the most reliable and top label manufacturers of all
-                  types of labels and to become customers first choice."
+                  &quot;To be the most reliable and top label manufacturers of all
+                  types of labels and to become customers first choice.&quot;
                 </p>
               </div>
               <p className="text-gray-700 leading-relaxed">
@@ -255,8 +255,8 @@ export default function About() {
               </div>
               <div className="bg-[#04499C]/10 p-6 rounded-xl mb-6">
                 <p className="text-lg font-semibold text-[#04499C] leading-relaxed">
-                  "Our mission is to provide innovative, reliable and cost
-                  effective label solutions for all types of sectors."
+                  &quot;Our mission is to provide innovative, reliable and cost
+                  effective label solutions for all types of sectors.&quot;
                 </p>
               </div>
               <p className="text-gray-700 leading-relaxed">
@@ -529,7 +529,7 @@ export default function About() {
                 Ready to Work <span className="text-[#F4A405]">Together</span>?
               </h3>
               <p className="text-xl text-blue-100 mb-8 leading-relaxed">
-                Whether you're looking for a machine, have a support question or
+                Whether you&apos;re looking for a machine, have a support question or
                 a business query -
                 <strong className="text-white"> get in touch</strong> with our
                 expert team today.

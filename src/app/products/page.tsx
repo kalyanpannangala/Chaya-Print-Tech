@@ -4,10 +4,7 @@ import {
   Shield,
   Zap,
   Award,
-  Truck,
   Clock,
-  CheckCircle,
-  Star,
 } from "lucide-react";
 import { commercialProducts, industrialProducts } from "@/lib/products";
 import { ProductsClient } from "./ProductsClient";
@@ -142,7 +139,7 @@ export default function ProductsPage() {
               Need Something <span className="text-[#F4A405]">Custom</span>?
             </h2>
             <p className="text-xl md:text-2xl text-gray-700 mb-12 leading-relaxed">
-              Can't find exactly what you're looking for? Our team of experts
+              Can&apos;t find exactly what you&apos;re looking for? Our team of experts
               can design and manufacture{" "}
               <strong className="text-[#04499C]">
                 custom labeling solutions

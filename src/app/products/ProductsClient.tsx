@@ -127,7 +127,7 @@ export function ProductsClient({
             className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
           >
             {filtered.map((p) => {
-              const isIndustrial = (p as any)._cat === "industrial";
+              const isIndustrial = p.category === "Industrial";
               return (
                 <motion.div
                   key={p.slug}

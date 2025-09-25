@@ -1,16 +1,16 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, Variant, Transition } from "framer-motion";
 import { ReactNode } from "react";
 
 interface MotionSectionProps {
   children: ReactNode;
   className?: string;
-  initial?: any;
-  animate?: any;
-  whileInView?: any;
-  viewport?: any;
-  transition?: any;
+  initial?: boolean | Variant;
+  animate?: Variant;
+  whileInView?: Variant;
+  viewport?: { once?: boolean; amount?: number };
+  transition?: Transition;
 }
 
 export function MotionSection({
@@ -22,7 +22,7 @@ export function MotionSection({
   viewport,
   transition,
 }: MotionSectionProps) {
-  const props: any = {};
+  const props: Record<string, unknown> = {};
 
   if (initial) props.initial = initial;
   if (animate) props.animate = animate;

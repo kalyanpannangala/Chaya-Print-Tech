@@ -542,7 +542,7 @@ export default function Industries() {
             <span className="text-[#F4A405]">Industry Operations</span>?
           </h2>
           <p className="text-xl text-gray-700 mb-12 leading-relaxed">
-            Contact our industry specialists to discuss how CPT's specialized
+            Contact our industry specialists to discuss how CPT&apos;s specialized
             labeling solutions can address your specific regulatory challenges
             and operational requirements.
           </p>
